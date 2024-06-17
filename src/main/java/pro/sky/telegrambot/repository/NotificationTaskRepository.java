@@ -6,7 +6,9 @@ import pro.sky.telegrambot.entity.NotificationTask;
 import java.time.LocalDateTime;
 import java.util.List;
 
+// Репозиторий для работы с задачами уведомлений в базе данных
 @Repository
 public interface NotificationTaskRepository extends JpaRepository<NotificationTask, Long> {
+    // Метод для поиска задач уведомлений по времени уведомления
     List<NotificationTask> findByNotificationDateTime(LocalDateTime dateTime);
 }
