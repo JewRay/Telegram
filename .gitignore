@@ -1,0 +1,5 @@
+/target/classes/pro/sky/telegrambot/TelegramBotApplication.class
+/target/classes/application.properties
+/src/test/java/pro/sky/telegrambot/TelegramBotApplicationTests.java
+/target/classes/pro/sky/telegrambot/configuration/TelegramBotConfiguration.class
+/target/classes/pro/sky/telegrambot/listener/TelegramBotUpdatesListener.class

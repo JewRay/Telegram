@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - include:
+      file: setupTables.yaml
+      relativeToChangelogFile: true
